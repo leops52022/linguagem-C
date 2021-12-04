@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+main (){
+ 
+ float a ,b , c , d , e;
+ 
+ printf("digite valor do seu salario R$\t"); 
+ scanf("%lf" , &b);
+
+  printf ("digite outro valor\t");
+ scanf("%lf", &c);
+  
+  printf ("digite outro valor\t");	
+  scanf("%f", &d);
+  
+  printf("digite outro valor\t");
+  scanf("%f" ,&e);
+  
+   a= b-c-d-e;
+   printf("seu saldo R$ %f\n" , a);
+ 
+  
+ system ("pause");
+ return 0 ;
+}
